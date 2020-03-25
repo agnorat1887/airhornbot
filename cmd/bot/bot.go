@@ -114,6 +114,18 @@ var KHALED *SoundCollection = &SoundCollection{
 	},
 }
 
+var TRAIN *SoundCollection = &SoundCollection{
+	Prefix:    "train",
+	Commands: []string{
+		"!train",
+		"!tw",
+	},
+	Sounds: []*Sound{
+		createSound("day", 1, 250),
+		createSound("hips", 1, 250),
+	},
+}
+
 var CENA *SoundCollection = &SoundCollection{
 	Prefix: "jc",
 	Commands: []string{
@@ -194,6 +206,7 @@ var WOW *SoundCollection = &SoundCollection{
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
+	TRAIN,
 	CENA,
 	ETHAN,
 	COW,
