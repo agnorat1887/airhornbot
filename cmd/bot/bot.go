@@ -126,6 +126,36 @@ var TRAIN *SoundCollection = &SoundCollection{
 	},
 }
 
+var DISCORD *SoundCollection = &SoundCollection{
+	Prefix:    "discord",
+	Commands: []string{
+		"!discord",
+		"!dc",
+	},
+	Sounds: []*Sound{
+		createSound("boof", 1, 250),
+		createSound("chainboat", 1, 250),
+		createSound("chicken", 1, 250),
+		createSound("crack", 1, 250),
+		createSound("duckscream", 1, 250),
+		createSound("gijoe", 1, 250),
+		createSound("hardcry", 1, 250),
+		createSound("hibrandon", 1, 250),
+		createSound("joesneeze", 1, 250),
+		createSound("kempdisgust", 1, 250),
+		createSound("kempscream", 1, 250),
+		createSound("logscreach", 1, 250),
+		createSound("logscream", 1, 250),
+		createSound("logyeet", 1, 250),
+		createSound("mccheck", 1, 250),
+		createSound("ohuh", 1, 250),
+		createSound("ok", 1, 250),
+		createSound("reehaw", 1, 250),
+		createSound("stompthecromps", 1, 250),
+		createSound("ubuh", 1, 250),
+	},
+}
+
 var CENA *SoundCollection = &SoundCollection{
 	Prefix: "jc",
 	Commands: []string{
@@ -207,6 +237,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
 	TRAIN,
+	DISCORD,
 	CENA,
 	ETHAN,
 	COW,
