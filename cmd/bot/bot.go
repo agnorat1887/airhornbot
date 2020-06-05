@@ -121,8 +121,10 @@ var TRAIN *SoundCollection = &SoundCollection{
 		"!tw",
 	},
 	Sounds: []*Sound{
-		createSound("day", 1, 250),
-		createSound("hips", 1, 250),
+		createSound("day", 1, 250),					//Fucked up day
+		createSound("hips", 1, 250),				//With me, with me, hips
+		createSound("lav", 1, 250),					//100 gifted subs
+		createSound("nae", 1, 250)					//nae nibba
 	},
 }
 
@@ -133,26 +135,30 @@ var DISCORD *SoundCollection = &SoundCollection{
 		"!dc",
 	},
 	Sounds: []*Sound{
-		createSound("boof", 1, 250), 				//Vollaro punching mic
-		createSound("chainboat", 1, 250), 			//Chris' chain boat
-		createSound("chicken", 1, 250), 			//Stiffie popeyes chicken
-		createSound("crack", 1, 250),				//Joey crafting table breaks
-		createSound("duckscream", 1, 250),			//Vollaro duck game scream
-		createSound("gijoe", 1, 250),				//Joey GIJOE
-		createSound("hardcry", 1, 250),				//Hard job eeeeee
-		createSound("hibrandon", 1, 250),			//Vollaro hi brandon scream
-		createSound("joesneeze", 1, 250),			//Joey sneezing into mic
-		createSound("kempdisgust", 1, 250),			//Kempke reacts to hard baby
-		createSound("kempscream", 1, 250),			//Kempke screams to girls party
-		createSound("logscreach", 1, 250),			//Logan scp scream
-		createSound("logscream", 1, 250),			//Logan dies in worms
-		createSound("logyeet", 1, 250),				//Logan yeets spear
-		createSound("mccheck", 1, 250),				//Logan talks about checkers
-		createSound("ohuh", 1, 250),				//Cooking by the book morse code end
-		createSound("ok", 1, 250),					//o k
-		createSound("reehaw", 1, 250),				//Hard reeehaws
-		createSound("stompthecromps", 1, 250),		//Chris stomps the cromps
-		createSound("ubuh", 1, 250),				//Joey says ubuh
+		createSound("boof", 100, 250), 				//Vollaro punching mic
+		createSound("chainboat", 100, 250), 			//Chris' chain boat
+		createSound("chicken", 100, 250), 			//Stiffie popeyes chicken
+		createSound("crack", 100, 250),				//Joey crafting table breaks
+		createSound("duckscream", 100, 250),			//Vollaro duck game scream
+		createSound("gijoe", 100, 250),				//Joey GIJOE
+		createSound("hardcry", 100, 250),				//Hard job eeeeee
+		createSound("hibrandon", 100, 250),			//Vollaro hi brandon scream
+		createSound("joesneeze", 100, 250),			//Joey sneezing into mic
+		createSound("kempdisgust", 100, 250),			//Kempke reacts to hard baby
+		createSound("kempscream", 100, 250),			//Kempke screams to girls party
+		createSound("logscreach", 100, 250),			//Logan scp scream
+		createSound("logscream", 100, 250),			//Logan dies in worms
+		createSound("logyeet", 100, 250),				//Logan yeets spear
+		createSound("mccheck", 100, 250),				//Logan talks about checkers
+		createSound("ohuh", 100, 250),				//Cooking by the book morse code end
+		createSound("ok", 100, 250),					//o k
+		createSound("reehaw", 100, 250),				//Hard reeehaws
+		createSound("stompthecromps", 100, 250),		//Chris stomps the cromps
+		createSound("ubuh", 100, 250),				//Joey says ubuh
+		createsound("cornbread", 25, 250),
+		createSound("gethim", 100, 250),
+		createSound("gotyoucovered", 100, 250),
+		createSound("lovecorn", 100, 250)
 	},
 }
 
