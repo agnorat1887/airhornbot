@@ -133,26 +133,26 @@ var DISCORD *SoundCollection = &SoundCollection{
 		"!dc",
 	},
 	Sounds: []*Sound{
-		createSound("boof", 1, 250),
-		createSound("chainboat", 1, 250),
-		createSound("chicken", 1, 250),
-		createSound("crack", 1, 250),
-		createSound("duckscream", 1, 250),
-		createSound("gijoe", 1, 250),
-		createSound("hardcry", 1, 250),
-		createSound("hibrandon", 1, 250),
-		createSound("joesneeze", 1, 250),
-		createSound("kempdisgust", 1, 250),
-		createSound("kempscream", 1, 250),
-		createSound("logscreach", 1, 250),
-		createSound("logscream", 1, 250),
-		createSound("logyeet", 1, 250),
-		createSound("mccheck", 1, 250),
-		createSound("ohuh", 1, 250),
-		createSound("ok", 1, 250),
-		createSound("reehaw", 1, 250),
-		createSound("stompthecromps", 1, 250),
-		createSound("ubuh", 1, 250),
+		createSound("boof", 1, 250), 				//Vollaro punching mic
+		createSound("chainboat", 1, 250), 			//Chris' chain boat
+		createSound("chicken", 1, 250), 			//Stiffie popeyes chicken
+		createSound("crack", 1, 250),				//Joey crafting table breaks
+		createSound("duckscream", 1, 250),			//Vollaro duck game scream
+		createSound("gijoe", 1, 250),				//Joey GIJOE
+		createSound("hardcry", 1, 250),				//Hard job eeeeee
+		createSound("hibrandon", 1, 250),			//Vollaro hi brandon scream
+		createSound("joesneeze", 1, 250),			//Joey sneezing into mic
+		createSound("kempdisgust", 1, 250),			//Kempke reacts to hard baby
+		createSound("kempscream", 1, 250),			//Kempke screams to girls party
+		createSound("logscreach", 1, 250),			//Logan scp scream
+		createSound("logscream", 1, 250),			//Logan dies in worms
+		createSound("logyeet", 1, 250),				//Logan yeets spear
+		createSound("mccheck", 1, 250),				//Logan talks about checkers
+		createSound("ohuh", 1, 250),				//Cooking by the book morse code end
+		createSound("ok", 1, 250),					//o k
+		createSound("reehaw", 1, 250),				//Hard reeehaws
+		createSound("stompthecromps", 1, 250),		//Chris stomps the cromps
+		createSound("ubuh", 1, 250),				//Joey says ubuh
 	},
 }
 
