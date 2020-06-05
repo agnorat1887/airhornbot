@@ -155,7 +155,7 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("reehaw", 100, 250),				//Hard reeehaws
 		createSound("stompthecromps", 100, 250),		//Chris stomps the cromps
 		createSound("ubuh", 100, 250),					//Joey says ubuh
-		createsound("cornbread", 25, 250),				//Logan loved cornbread
+		createSound("cornbread", 25, 250),				//Logan loved cornbread
 		createSound("gethim", 100, 250),				//Joey says get him
 		createSound("gotyoucovered", 100, 250),			//Josh gives covering fire
 		createSound("lovecorn", 100, 250),				//Logan loves corn
