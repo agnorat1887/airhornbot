@@ -121,10 +121,11 @@ var TRAIN *SoundCollection = &SoundCollection{
 		"!tw",
 	},
 	Sounds: []*Sound{
-		createSound("day", 1, 250),					//Fucked up day
-		createSound("hips", 1, 250),				//With me, with me, hips
-		createSound("lav", 1, 250),					//100 gifted subs
-		createSound("nae", 1, 250),					//nae nibba
+		createSound("day", 10, 250),					//Fucked up day
+		createSound("hips", 10, 250),					//With me, with me, hips
+		createSound("lav", 10, 250),					//100 gifted subs
+		createSound("nae", 10, 250),					//nae nibba
+		createSound("thatstrue", 5, 250),				//Thats true
 	},
 }
 
@@ -159,6 +160,9 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("gethim", 100, 250),				//Joey says get him
 		createSound("gotyoucovered", 100, 250),			//Josh gives covering fire
 		createSound("lovecorn", 100, 250),				//Logan loves corn
+		createSound("ohboyguysherewego", 100, 250),		//Jared gets going
+		createSound("killthechild", 100, 250),			//Jared kills the child
+		createSound("pog", 100, 250),					//Khang says pog
 	},
 }
 
@@ -507,7 +511,7 @@ func playSound(play *Play, vc *discordgo.VoiceConnection) (err error) {
 
 func onReady(s *discordgo.Session, event *discordgo.Ready) {
 	log.Info("Recieved READY payload")
-	s.UpdateStatus(0, "airhornbot.com")
+	s.UpdateStatus(0, "With Air")
 }
 
 func scontains(key string, options ...string) bool {
