@@ -163,6 +163,8 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("ohboyguysherewego", 100, 250),		//Jared gets going
 		createSound("killthechild", 100, 250),			//Jared kills the child
 		createSound("pog", 100, 250),					//Khang says pog
+		createSound("wheeze", 100, 250),				//Logan Wheeze
+		createSound("teakettle", 100, 250),				//Hard tea kettle
 	},
 }
 
