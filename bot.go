@@ -129,6 +129,17 @@ var TRAIN *SoundCollection = &SoundCollection{
 	},
 }
 
+var RANDOM *SoundCollection = &SoundCollection{
+	Prefix:    "random",
+	Commands: []string{
+		"!random",
+		"!rand",
+	},
+	Sounds: []*Sound{
+		createSound("timetonut", 100, 250),				//Zombieland its time to nut
+	},
+}
+
 var DISCORD *SoundCollection = &SoundCollection{
 	Prefix:    "discord",
 	Commands: []string{
@@ -165,6 +176,13 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("pog", 100, 250),					//Khang says pog
 		createSound("wheeze", 100, 250),				//Logan Wheeze
 		createSound("teakettle", 100, 250),				//Hard tea kettle
+		createSound("bloodbourne", 100, 250),			//Vollaros bloodbourne gets corrupted
+		createSound("chillin", 100, 250),				//Chris welcomes you to chillin
+		createSound("hardletsgo", 100, 250),			//Hard kills an owl
+		createSound("potatodetective", 100, 250),		//Chris is a potato detective
+		createSound("scarcehere", 100, 250),			//Chris whats going on scarce here
+		createSound("skippy", 100, 250),				//Vollaro says fuck you skippy
+		createSound("yes", 100, 250),					//Vollaro gets killed by Joey
 	},
 }
 
@@ -249,6 +267,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
 	TRAIN,
+	RANDOM,
 	DISCORD,
 	CENA,
 	ETHAN,
