@@ -183,6 +183,7 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("scarcehere", 100, 250),			//Chris whats going on scarce here
 		createSound("skippy", 100, 250),				//Vollaro says fuck you skippy
 		createSound("yes", 100, 250),					//Vollaro gets killed by Joey
+		createSound("blender", 100, 250),				//Kempke screams like blender
 	},
 }
 
