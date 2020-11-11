@@ -137,6 +137,14 @@ var RANDOM *SoundCollection = &SoundCollection{
 	},
 	Sounds: []*Sound{
 		createSound("nut", 100, 250),				//Zombieland its time to nut
+		createSound("destroymylaptop", 100, 250),	//Minecraft biggest fail 18+
+		createSound("hate", 100, 250),				//Keemstar why am I still getting hate
+		createSound("preciateit", 100, 250),		//Chuck e cheese preciate it
+		createSound("sayonara", 100, 250),			//Sayonara NI66A
+		createSound("traps", 100, 250),				//Guy rages about traps
+		createSound("vomit", 100, 250),				//Step back i think im going to vomit
+		createSound("2319", 100, 250),				//2319 we have a 2319
+		createSound("mickeymouse", 100, 250),		//You going to say something
 	},
 }
 
@@ -184,6 +192,7 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("skippy", 100, 250),				//Vollaro says fuck you skippy
 		createSound("yes", 100, 250),					//Vollaro gets killed by Joey
 		createSound("blender", 100, 250),				//Kempke screams like blender
+		createSound("what", 100, 250),					//Logan says what during jojo rabbit
 	},
 }
 
