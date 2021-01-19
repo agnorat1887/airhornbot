@@ -145,6 +145,17 @@ var RANDOM *SoundCollection = &SoundCollection{
 		createSound("vomit", 100, 250),				//Step back i think im going to vomit
 		createSound("2319", 100, 250),				//2319 we have a 2319
 		createSound("mickeymouse", 100, 250),		//You going to say something
+		createSound("beans", 100, 250),				//BEANS
+		createSound("bippy", 100, 250),				//Youll bet your sweet bippy I did
+		createSound("boobies", 100, 250),			//Cena says boobies
+		createSound("cutg", 100, 250),				//I like ya cut G
+		createSound("eggs", 100, 250),				//Cook the man some eggs
+		createSound("fatfuck", 100, 250),			//Dr. dis fat
+		createSound("losesomeweight", 100, 250),	//Plankton lose some weight fatty
+		createSound("pogchamp", 100, 250),			//Terry pog
+		createSound("scienceteam", 100, 250),		//No im with the science team
+		createSound("tomorrow", 100, 250),			//Mcodonalds voicemail
+		createSound("tuba", 100, 250),				//I LOVE THE TUBA
 	},
 }
 
@@ -193,6 +204,7 @@ var DISCORD *SoundCollection = &SoundCollection{
 		createSound("yes", 100, 250),					//Vollaro gets killed by Joey
 		createSound("blender", 100, 250),				//Kempke screams like blender
 		createSound("what", 100, 250),					//Logan says what during jojo rabbit
+		createSound("spoon", 100, 250),					//Logan finds a spoon in his cup
 	},
 }
 
