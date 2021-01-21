@@ -670,6 +670,7 @@ func onMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
+
 	msg := strings.Replace(m.ContentWithMentionsReplaced(), s.State.Ready.User.Username, "username", 1)
 	parts := strings.Split(strings.ToLower(msg), " ")
 
@@ -707,6 +708,24 @@ func onMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		}
 		return
 	}
+
+	if(parts[0] == "!list" && len(parts) > 1) {							//Creates a list of names for a given command
+		help := "!" + parts[1]											//The command the user needs help with. Append ! to find in the commands list
+		commands := ""
+		for _, coll := range COLLECTIONS {								//Go through all the collections and find the one the user needs a list of
+			if scontains(help, coll.Commands...) {
+	
+				if len(parts) > 1 {
+					for _, s := range coll.Sounds {
+						commands = commands + s.Name + "\n"				//Create the list and add the new lines
+					}
+				}
+				s.ChannelMessageSend(m.ChannelID, commands)				//Send the message to the channel
+				return
+			}
+		}
+	}
+	
 
 	// Find the collection for the command we got
 	for _, coll := range COLLECTIONS {
@@ -769,7 +788,7 @@ func main() {
 
 	// Create a discord session
 	log.Info("Starting discord session...")
-	discord, err = discordgo.New(*Token)
+	discord, err = discordgo.New("Bot " + *Token)
 	if err != nil {
 		log.WithFields(log.Fields{
 			"error": err,
